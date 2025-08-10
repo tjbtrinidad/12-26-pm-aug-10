@@ -857,54 +857,46 @@
 
     /* ==================== PORTFOLIO DATA ==================== */
     const PORTFOLIO = [
-      {
-        id: "realtyhub-website",
-        type: "website",
-        title: "RealtyHub — AI Website + Lead Capture",
-        desc: "Property listing site with contact capture and automated follow-ups.",
-        cover: "/public/img/portfolio/realtyhub-cover.webp",
-        url: "#"
-      },
-      {
-        id: "planmate-chatbot",
-        type: "chatbot",
-        title: "PlanMate — Insurance Chatbot",
-        desc: "Qualifies leads in Messenger, sends to Sheets, books calls.",
-        cover: "/public/img/portfolio/planmate-cover.webp",
-        url: "#"
-      },
-      {
-        id: "autoflow-n8n",
-        type: "automation",
-        title: "AutoFlow — n8n Workflow",
-        desc: "Form → Sheets → GPT Tag → Email Confirmation + Telegram alert.",
-        cover: "/public/img/portfolio/autoflow-cover.webp",
-        url: "#"
-      },
-      {
-        id: "shopify-store",
-        type: "website", 
-        title: "Manila Fashion Co — E-commerce Site",
-        desc: "Complete Shopify store with AI-powered product recommendations.",
-        cover: "/public/img/portfolio/shopify-cover.webp",
-        url: "#"
-      }
-    ];
+  {
+    id: "autoflow-website",
+    type: "automation",
+    title: "AutoFlow — AI Workflow Automation",
+    desc: "Automated workflow connecting forms to sheets with AI processing.",
+    cover: "/public/img/portfolio/autoflow-cover.webp",
+    url: "#"
+  },
+  {
+    id: "planmate-chatbot",
+    type: "chatbot", 
+    title: "PlanMate — Insurance Chatbot",
+    desc: "Qualifies leads in Messenger, sends to Sheets, books calls.",
+    cover: "/public/img/portfolio/planmate-cover.webp",
+    url: "#"
+  },
+  {
+    id: "realtyhub-website",
+    type: "website",
+    title: "RealtyHub — Property Website",
+    desc: "Property listing site with contact capture and automated follow-ups.",
+    cover: "/public/img/portfolio/realtyhub-cover.webp",
+    url: "#"
+  }
+];
 
     const TOOLS = [
-      { name: "n8n", logo: "/public/img/tools/n8n.svg" },
-      { name: "Make.com", logo: "/public/img/tools/make.svg" },
-      { name: "OpenAI", logo: "/public/img/tools/openai.svg" },
-      { name: "Claude", logo: "/public/img/tools/claude.svg" },
-      { name: "ManyChat", logo: "/public/img/tools/manychat.svg" },
-      { name: "GoHighLevel", logo: "/public/img/tools/ghl.svg" },
-      { name: "Railway", logo: "/public/img/tools/railway.svg" },
-      { name: "GitHub", logo: "/public/img/tools/github.svg" },
-      { name: "Google Sheets", logo: "/public/img/tools/sheets.svg" },
-      { name: "Gmail", logo: "/public/img/tools/gmail.svg" },
-      { name: "Framer Motion", logo: "/public/img/tools/framer.svg" },
-      { name: "Stripe", logo: "/public/img/tools/stripe.svg" }
-    ];
+  { name: "n8n", logo: "/public/img/tools/n8n.png" },
+  { name: "Make.com", logo: "/public/img/tools/make.png" },
+  { name: "OpenAI", logo: "/public/img/tools/openai.png" },
+  { name: "Claude", logo: "/public/img/tools/claude.png" },
+  { name: "ManyChat", logo: "/public/img/tools/manychat.png" },
+  { name: "GoHighLevel", logo: "/public/img/tools/ghl.png" },
+  { name: "Railway", logo: "/public/img/tools/railway.png" },
+  { name: "GitHub", logo: "/public/img/tools/github.png" },
+  { name: "Google Sheets", logo: "/public/img/tools/sheets.png" },
+  { name: "Gmail", logo: "/public/img/tools/gmail.png" },
+  { name: "Framer Motion", logo: "/public/img/tools/framer.png" },
+  { name: "Stripe", logo: "/public/img/tools/stripe.png" }
+];
 
     function renderPortfolio(filter = "all") {
       const grid = document.getElementById("pf-grid");
